@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
+# Repositorio Avanzado de Aprendizaje de React - Gentleman Programming
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenidos al repositorio oficial de Gentleman Programming dedicado al proyecto de React que redefine la forma en que abordamos las clases avanzadas! Aquí, sumérgete en un viaje de aprendizaje profundo y exhaustivo, donde exploramos los conceptos de React desde los cimientos hasta niveles inexplorados.
 
-Currently, two official plugins are available:
+## ¿Qué hace a este repositorio especial?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Contenido Profundo:** Este proyecto de React no es solo otro tutorial superficial. Hemos desglosado los conceptos avanzados en bloques sólidos de conocimiento, abordando cada tema con ejemplos claros y aplicaciones prácticas.
 
-## Expanding the ESLint configuration
+- **Exploración Exhaustiva:** Desde el enrutamiento reactivo hasta la gestión de estado avanzada, pasando por render props, hooks personalizados y más. Aquí, desentrañamos cada aspecto de React con una perspectiva holística y profunda.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Aprendizaje Activo:** No te limites a copiar y pegar código. En este repositorio, te alentamos a interactuar con los ejemplos, experimentar con variantes y aplicar lo aprendido en proyectos personales. El aprendizaje es un proceso activo, y aquí lo vivirás en cada línea de código.
 
-- Configure the top-level `parserOptions` property like this:
+- **Proyecto Práctico:** Acompaña tu aprendizaje con un proyecto práctico que une todos los conceptos explorados. Construye desde cero una aplicación dinámica, aplicando técnicas avanzadas para crear una experiencia de usuario fluida y eficiente.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- **Recursos Adicionales:** Junto con el código del proyecto, encontrarás recursos adicionales, lecturas recomendadas y enlaces a fuentes relevantes. Queremos que te conviertas en un experto en React, y eso implica proporcionarte todas las herramientas necesarias.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **Comunidad Activa:** Únete a la comunidad de Gentleman Programming en línea para discutir conceptos, hacer preguntas, compartir tus logros y colaborar en el aprendizaje mutuo. Estamos aquí para apoyarte en cada paso.
+
+¿Estás listo para llevar tus habilidades de React más allá de lo convencional? Claro, puedes encontrar tutoriales en todas partes, pero aquí en Gentleman Programming, te desafiamos a sumergirte en el núcleo mismo de React y dominar sus aspectos avanzados como nunca antes. ¡Únete a nosotros y déjate llevar por este emocionante viaje de aprendizaje!
+
+🌐  ¡Explora más en el siguiente [link](https://linktr.ee/gentlemanprogramming)
