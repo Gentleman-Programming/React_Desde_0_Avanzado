@@ -1,10 +1,10 @@
 import "./App.scss";
-import { Test } from "./components";
+import { Dashboard } from "./dashboard/Dashboard";
 
 function App() {
   return (
     <>
-      <Test />
+      <Dashboard />
     </>
   );
 }
