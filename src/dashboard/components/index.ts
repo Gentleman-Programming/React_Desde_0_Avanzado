@@ -1,1 +1,1 @@
-export * from "./TestCustomHook";
+export * from "./TestRender";
