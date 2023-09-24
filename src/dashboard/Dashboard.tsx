@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { TestRender } from "./components";
+import { TestProvider } from "./context/testContext";
 
 export const Dashboard = () => {
   // const [param] = useState(1000000000);
@@ -25,8 +26,10 @@ export const Dashboard = () => {
 
   return (
     <>
-      {/* {expensiveValue} */}
-      <TestRender callBack={handleClick} />
+      <TestProvider>
+        {/* {expensiveValue} */}
+        <TestRender callBack={handleClick} />
+      </TestProvider>
     </>
   );
 };
