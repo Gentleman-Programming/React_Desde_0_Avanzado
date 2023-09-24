@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useTestContext } from "../context/testContext";
+import { TestActionTypes, useTestContext } from "../context/testContext";
 import { BorderBlack } from "./BorderBlack";
 import { RedText } from "./RedText";
 
@@ -8,11 +8,21 @@ export const TestComponentePadre = () => {
     console.log("CallBack Padre");
   };
   const infoDelPadre = "Info del Padre";
-  const infoPorContext = "Info por context";
-  const { setTestState } = useTestContext();
+  const infoPorContext = {
+    name: infoDelPadre,
+    age: 20,
+  };
+  const { testDispatcher } = useTestContext();
 
   useEffect(() => {
-    setTestState(infoPorContext);
+    testDispatcher({
+      type: TestActionTypes.REPLACE,
+      payload: infoPorContext,
+    });
+    testDispatcher({
+      type: TestActionTypes.ADD_AGE,
+      payload: { name: "", age: 20 },
+    });
   }, []);
 
   return (

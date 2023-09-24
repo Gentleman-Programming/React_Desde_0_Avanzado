@@ -9,7 +9,7 @@ export const RedText = ({ children }: Props) => {
 
   return (
     <div style={{ color: "red" }}>
-      {testState}
+      {JSON.stringify(testState)}
       {children}
     </div>
   );
